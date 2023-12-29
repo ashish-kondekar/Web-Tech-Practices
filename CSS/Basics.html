@@ -1,0 +1,52 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>CSS</title>
+    <link rel="stylesheet" href="stylesheet.css">
+    <style>
+        label {
+            font-weight: bold;
+            color: brown;
+        }
+
+        #Label3 {
+            color: pink;
+        }
+
+        .text-underline {
+            text-decoration: underline;
+        }
+
+        .text-color-red {
+            color: rebeccapurple;
+        }
+
+        #OverrideExample{
+            color: teal !important;
+        }
+    </style>
+</head>
+<body>
+    <h1 style="color: red;font-size: x-small;">Heading 1</h1>
+
+    <h1 id="OverrideExample" style="color: blue;font-size: x-small;">Override Example</h1>
+
+    <label class="text-underline text-color-red">
+        Label 1
+    </label>
+    
+    <label id="label2">
+        Label 2
+    </label>
+
+    <label id="Label3">
+        Label 3
+    </label>
+    
+    <label class="text-underline text-color-red">
+        Label 4
+    </label>
+</body>
+</html>
